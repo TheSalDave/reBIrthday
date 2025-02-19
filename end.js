@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const score = parseInt(urlParams.get('result'), 10);
 
     // Display the score
-    scoreElement.textContent = `Your score is: ${score}`;
+    scoreElement.textContent = `You reached the magic number! ${score}`;
 
     // Play TS 22 song
     const audio = new Audio('img/TS22.mp3');
