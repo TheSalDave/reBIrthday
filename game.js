@@ -126,7 +126,7 @@ function detectCollisions() {
         }
     });
 
-    if(score == 22 || score ==-22){
+    if(score == 22 || score <=-22){
         endGame()
     }
 
